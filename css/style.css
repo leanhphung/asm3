@@ -27,7 +27,7 @@ section > .container {
   max-width: 100%;
   background-size: cover;
   height: 600px;
-  background-image: url(/images/banner.jpg);
+  background-image: url(./images/banner.jpg);
   margin: auto;
 }
 .text-banner {
