@@ -1,0 +1,41 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .name-navbar {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 10px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 16px;
+  }
+  /*Xây dựng thông tin nghề nghiệp*/
+  .job-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+  /*Chứng chỉ-giải thưởng*/
+  .cc-gt-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+  /*Dự án*/
+  .content-du-an {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+  }
+  .title-du-an {
+    font-size: 14px;
+  }
+  .icon-cv-cn {
+    font-size: 14px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+}

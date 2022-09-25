@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .name-navbar {
+    display: none;
+  }
+  #nav-bar {
+    height: autopx;
+    display: block;
+  }
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+  /*Xây dựng thông tin nghề nghiệp*/
+  .job-grid {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+  }
+  /*chứng chỉ- giải thưởng*/
+  .border1 {
+    padding-top: 40px;
+    padding-left: 0px;
+    border-left: none;
+    border-top: 2px solid #d6c08d;
+  }
+  /*Dự án*/
+  .content-du-an {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 10px;
+  }
+  /*Liên hệ*/
+  #footer a:link {
+    margin-right: 10px;
+  }
+}

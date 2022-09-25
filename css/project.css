@@ -1,0 +1,93 @@
+.b2 {
+  border-bottom: 1px solid rgb(221, 213, 213);
+}
+.b3 {
+  border-bottom: 2px dotted rgb(95, 214, 235);
+}
+@media (max-width: 768px) {
+  .out-in {
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .team {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .scopes {
+    margin-top: 12px;
+  }
+  .primary {
+    margin-top: 12px;
+  }
+  .out-in {
+    margin-top: 0px;
+    padding-bottom: 0px !important;
+    padding-top: 38px !important;
+  }
+  p {
+    padding-left: 16px;
+    font-size: 18px;
+  }
+  h4 {
+    padding-left: 16px;
+  }
+  .icon-tl {
+    width: 24px;
+    padding-left: 18px;
+  }
+  .circle {
+    font-size: 48px;
+  }
+  .icon-pri {
+    width: 24px;
+    padding-left: 168px;
+  }
+  .timeline {
+    padding-left: 32px !important;
+    padding-right: 62px !important;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .icon-tl {
+    text-align: left;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h4 {
+    padding-left: 16px;
+  }
+  .team {
+    padding-right: 16px;
+    margin-right: 8px;
+    width: 100%;
+    margin-top: 8px;
+    padding-left: 16px;
+  }
+  .timeline {
+    padding-left: 0px;
+    margin-right: 16px;
+  }
+  .primary {
+    margin-left: 8px;
+    width: 100%;
+    margin-top: 8px;
+    padding-left: 8px;
+  }
+  p {
+    padding-left: 16px;
+    font-size: 24px;
+  }
+  .out-in {
+    margin-top: 0px;
+    padding-bottom: 24px !important;
+  }
+  .icon-tl {
+    width: 48px;
+    padding-left: 18px;
+  }
+  .circle {
+    font-size: 48px;
+  }
+}
