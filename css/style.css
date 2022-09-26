@@ -29,6 +29,7 @@ section > .container {
   height: 600px;
   background-image: url(../images/banner.jpg);
   margin: auto;
+  background-position:center;
 }
 .text-banner {
   position: absolute;
